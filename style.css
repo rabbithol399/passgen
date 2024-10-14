@@ -1,0 +1,56 @@
+body {
+  
+    min-width: 900px;
+    padding: 30px;
+    background-color:#1C1C1C;
+;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1F2937;
+    color: aliceblue;
+    padding: 20px;
+    height: 70vw;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2{
+    padding-bottom: 26px;
+}
+
+.highlight {
+    color: #34D399;
+}
+
+.generate-btn {
+    background-color: #10B981;
+    padding: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 26px;
+;
+}
+
+.passBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.passHolder {
+    margin-top: 16px;
+    margin-right: 26px;
+    font-size: 20px;
+    background-color: #111827;
+    padding: 20px;
+    border-radius: 8px
+;
+;
+}
