@@ -17,3 +17,21 @@ document.querySelector('.generate-btn').addEventListener('click', function() {
     document.getElementById("holderTwo").textContent = password2
 
 });
+
+function copyToClip(elId) {
+    const textCopy = document.getElementById(elId).textContent;
+    if (textCopy) {
+        navigator.clipboard.writeText(textCopy).then(() => {
+            alert("Password copied to clipboard!");
+        }).catch(err => {
+            console.error("Failed to copy password: ", err);
+        });
+    }
+}
+
+document.getElementById('holderOne').addEventListener('click', function() {
+    copyToClip("holderOne");
+});
+document.getElementById("holderTwo").addEventListener('click', function() {
+    copyToClip('holderTwo');
+});

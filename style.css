@@ -36,7 +36,13 @@ h2{
     border-radius: 10px;
     color: whitesmoke;
     font-size: 26px;
+    transition: 1s
 ;
+}
+
+.generate-btn:hover {
+    transform: scale(1.16);
+    background-color:  #139368;
 }
 
 .passBox {
@@ -50,7 +56,11 @@ h2{
     font-size: 20px;
     background-color: #111827;
     padding: 20px;
-    border-radius: 8px
-;
-;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.passHolder:hover {
+  background-color: #1118273c;
+  transform: scale(1.16);
 }
